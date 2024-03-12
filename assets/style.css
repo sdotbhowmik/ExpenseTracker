@@ -1,0 +1,159 @@
+
+body {
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 1.2rem;
+    font-family: 'poppins';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: 'Lucida Sans Thin';
+    letter-spacing: -0.3rem;
+    font-size: 3rem;
+    margin: 1rem auto;
+    padding: 0 2rem;
+}
+
+p {
+    padding-left: 2rem;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.sidepanel {
+    color: white;
+    height:50rem;
+    width: fit-content;
+    background-color: #042222b0;
+    text-align: left;
+}
+
+.nav ul {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 1rem;
+}
+
+.nav ul li:hover {
+    transform: translateY(-4px);
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.9 ease-in-out;
+}
+
+.mainpanel {
+    height: 100vh;
+    width: 100%;
+}
+
+.show_bal {
+    font-size: 2rem;
+    margin: 5rem auto;
+    width: fit-content;
+    height: fit-content;
+    background-image: linear-gradient(#042222b0, #045555d7);
+    color: #fff;
+    padding: 2vw;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.bal_amt {
+    font-family: 'poppins';
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    width: 320px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #09e4bf;
+    color: #010b0b;
+    transition: 0.5s;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #2affa3;
+    cursor: pointer;
+    box-shadow: 0 0 10px #031d1d;
+}
+
+textarea,
+input {
+    border: 1px solid #2df1ff;
+    background-color: #00000000;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin-left: 9rem;
+    font-size: 36px;
+}
+
+#form {
+    font-size: 1rem;
+    margin: 2rem auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #042222b0;
+    color: #fff;
+    text-align: left;
+    padding: 1vw 2vw;
+}
+
+#form a {
+    color: #41ffff;
+}
+
+.form {
+    margin: 5rem auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #042222b0;
+    color: #fff;
+    text-align: left;
+    padding: 2vw 3vw 3vw 3vw;
+}
+
+.form a {
+    color: #41ffff;
+}
+
+.profile_details{
+    display: inline;
+    background-color: #00000000;
+    font-family: 'poppins';
+    color: #fff;
+    width: fit-content;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    margin: 5px 1rem;
+    font-size: 1.3rem;
+}
+
+
